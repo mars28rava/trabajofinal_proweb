@@ -1,0 +1,252 @@
+body{
+	background: #FFEEDB;
+}
+
+h1{
+	text-align: center; 
+	font-family: montserrat; 
+	font-weight:bold; 
+	font-size: 60px; 
+	color: #FFFFFF; 
+	text-shadow: -1px 0 #BA3B46, 0 1px #BA3B46, 1px 0 #BA3B46, 0 -1px #BA3B46, -2px 2px 0 #BA3B46, 2px 2px 0 #BA3B46, 1px 1px #BA3B46, 2px 2px #BA3B46, 3px 3px #BA3B46, 4px 4px #BA3B46, 5px 5px #BA3B46, 6px 6px #BA3B46, 7px 7px #BA3B46, 8px 8px #BA3B46, 9px 9px #BA3B46;
+}
+/**/
+
+h2{
+	text-align: center; 
+	font-family: montserrat; 
+	font-weight:bold; 
+	font-size: 40px; 
+	color: #FFFFFF; 
+	text-shadow: -1px 0 #BA3B46, 0 1px #BA3B46, 1px 0 #BA3B46, 0 -1px #BA3B46, -2px 2px 0 #BA3B46, 2px 2px 0 #BA3B46, 1px 1px #BA3B46, 2px 2px #BA3B46, 3px 3px #BA3B46, 4px 4px #BA3B46, 5px 5px #BA3B46, 6px 6px #BA3B46, 7px 7px #BA3B46, 8px 8px #BA3B46, 9px 9px #BA3B46;
+}
+
+p{
+	font-family: montserrat;
+	font-size: 30 px;
+}
+
+/*css de div de inicio*/
+.textoinicio {
+	display: flex;
+    justify-content: space-between;
+    }
+        .item1 {
+            text-align: justify;
+            margin: 20px; 
+            background-color: #FFEEDB; 
+        }
+		.item1 p{
+			color: #BA3B46;
+			font-family: montserrat;
+			margin-left: 20px;
+			margin-right: 20px;
+			font-size: 20px;
+		}
+		.item1 h3{
+			color: #BA3B46;
+			font-family: montserrat;
+			margin-left: 20px;
+			margin-right: 20px;
+			font-size: 20px;
+		}
+		
+		.item1_1{
+			width: 50%;
+			text-align: justify;
+            margin: 20px; 
+            background-color: #ED9B40;
+		}
+		.item1_1 p{
+			color: #FFFFFF;
+			font-family: montserrat;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.item1_1 li{
+			color: #FFFFFF;
+			font-family: montserrat;
+			margin-right: 20px;
+		}
+		.item1_1 h3{
+			color: #FFFFFF;
+			font-family: montserrat;
+			margin-left: 20px;
+			margin-right: 20px;
+			font-size: 20px;
+		}
+/**/
+
+/*css de menu*/
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #BA3B46;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px montserrat;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #AA8F66;
+}
+/**/
+
+/*div de info*/
+.info {
+	display: flex;
+            justify-content: space-between;
+        }
+        .item2 {
+			text-align: center;
+            width: 50%;
+            margin: 20px; 
+            background-color: #61C9A8; 
+        }
+        .item2 img {
+			max-width: 75%;
+            height: auto;			
+			margin-top: 20px;
+        }
+		
+		.item2 p{
+			color: white;
+			text-align: justify;
+			font-family: montserrat;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		
+		.item2 ul,li{
+			color: white;
+			text-align: justify;
+			font-family: montserrat;
+			margin-right: 20px;
+		}
+/**/
+
+/*css de encuesta*/
+.centrado {
+	color: #BA3B46;
+	font-family: montserrat;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+/**/
+
+/* Red button styling for Foro and Encuesta */
+.boton-enviar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-enviar {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.boton-enviar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.boton-enviar:hover {
+    background-color: #c0392b;
+}
+
+/* Sección del pie de página */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Tablas del foro con bordes redondeados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Formularios de la encuesta */
+form {
+    display: absolute;
+    flex-direction: column;
+    align-items: left;
+}
+
+form input, form select{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.foro-banner{
+	max-width: 55%;
+    height: auto;			
+	margin-top: 20px;
+}
+
+/*css de foro*/
+.centrado1 {
+	color: #BA3B46;
+	font-family: montserrat;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+/**/

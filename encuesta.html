@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilosTF.css">
+	</head>
+	
+	<body>
+		<nav class="dropdownmenu">
+			<ul>
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="encuesta.html">Encuesta</a></li>
+				<li><a href="foro.html">Foro</a></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+		<h1>Encuesta sobre la salud mental</h1>
+		<br>
+		<section id="encuesta" class="centrado">
+            <center><img src="imagenes/encuesta-banner.jpg" alt="Encuesta Salud Mental" class="encuesta-banner"></center>
+            <h3 align="center">Ayúdanos a entender cómo te afecta la vida universitaria</h3>
+            <form id="encuesta-form" class="encuesta-form">
+                <label>¿Has experimentado alguno de estos problemas?</label><br>
+                <input type="checkbox" id="ansiedad" name="problema" value="ansiedad">
+                <label for="ansiedad">Ansiedad</label><br>
+                <input type="checkbox" id="estres" name="problema" value="estres">
+                <label for="estres">Estrés</label><br>
+                <input type="checkbox" id="depresion" name="problema" value="depresion">
+                <label for="depresion">Depresión</label><br>
+                <input type="checkbox" id="insomnio" name="problema" value="insomnio">
+                <label for="insomnio">Insomnio</label><br>
+                <input type="checkbox" id="otro" name="problema" value="otro">
+                <label for="otro">Otro</label><br><br>
+
+                <label>¿Con qué frecuencia te sientes abrumado por el trabajo académico?</label><br>
+                <input type="radio" id="frecuencia1" name="frecuencia" value="diariamente">
+                <label for="frecuencia1">Diariamente</label><br>
+                <input type="radio" id="frecuencia2" name="frecuencia" value="semanalmente">
+                <label for="frecuencia2">Semanalmente</label><br>
+                <input type="radio" id="frecuencia3" name="frecuencia" value="ocasionalmente">
+                <label for="frecuencia3">Ocasionalmente</label><br><br>
+
+                <label>¿Buscas apoyo emocional o psicológico cuando te sientes mal?</label><br>
+                <input type="radio" id="apoyo1" name="apoyo" value="si">
+                <label for="apoyo1">Sí</label><br>
+                <input type="radio" id="apoyo2" name="apoyo" value="no">
+                <label for="apoyo2">No</label><br>
+                <input type="radio" id="apoyo3" name="apoyo" value="a_veces">
+                <label for="apoyo3">A veces</label><br><br>
+
+                <label>¿Qué actividades te ayudan a relajarte?</label><br>
+                <textarea id="relajacion" name="relajacion" placeholder="Escribe tus actividades..."></textarea><br><br>
+
+                <label>Comentarios adicionales:</label><br>
+                <textarea id="comentario" name="comentario" placeholder="Escribe aquí cualquier cosa adicional..."></textarea><br>
+				<br>
+                <button type="submit" class="boton-enviar">Enviar Encuesta</button>
+            </form>
+        </section>
+		<footer>
+        <p>Mente UANL - Encuesta © 2024</p>
+		</footer>
+		<script src="scripts.js"></script>
+	</body>
+</html>
